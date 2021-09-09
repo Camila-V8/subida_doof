@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro:ital,wght@0,600;1,600&family=ZCOOL+KuaiLe&display=swap');
+
+
+body {
+	background-color: #ffffff;
+	background-image: url("pattern.jpg");
+	backface-visibility: cover;
+}
+
+#contenedor {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+header {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	height: 80px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+h1 {
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+#png {
+	position: absolute;
+	padding-top: 77px;
+	padding-left: 640px;
+}
+
+#imagenes {
+	width: 360px;
+	height: 920px;
+	opacity: 100%;
+
+}
+
+#video {
+	width: 720px;
+	padding: 200px;
+	margin-left: 250px;
+	margin-right: auto;
+	margin-top: -1120px;
+
+}
+
+#contexto {
+	background-color: #B9DE5B;
+	width: 696px;
+	margin-left: 390px;
+	margin-top: -190px;
+	padding: 2px;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+#contexto p {
+	font-family: 'Roboto Slab', serif;
+	text-align: justify;
+	font-size: 16px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+#columnas {
+	width: 680px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #B9DE5B;
+	margin-left: auto;
+	margin-right: -10px;
+	column-count: 2;
+	column-gap: 50px;
+	column-rule: 3px solid #ffffff;
+	border: 4px solid #000000;
+	border-radius: 50px;
+}
+
+
+#columnas p {
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	font-size: 16px;
+}
+
+footer {
+	height: 80px;
+	background-image: linear-gradient(rgb(92, 124, 40 ) 0%, rgb(95, 138, 43 ) 50%, rgb(110, 159, 51) 100%);
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: auto;
+}
+
+
+#nombre {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-left: 463px;
+	margin-top: -40px;
+}
+#nombre a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 15px;
+	text-shadow: 5px 5px 5px #242917;
+}
+
+#logo {
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+#serie {
+	margin-left: 900px;
+	margin-top: -50px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+	@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		background-color: #ffffff;
+		background-image: url("pattern.jpg");
+		backface-visibility: cover;
+	}
+
+	#contenedor {
+		width: 90%;
+	}
+
+	#imagenes {
+		width: 10%;
+	}
+
+	#video {
+		width: 10%;
+	}
+
+	#columnas {
+		width: 45%;
+	}
+
+	footer {
+		width: 90%;
+	}
+	}
+
+/* Large devices (tablets, 992px and up) */
+	@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		background-color: #ffffff;
+		background-image: url("pattern.jpg");
+		backface-visibility: cover;
+	}
+
+	#contenedor {
+		width: 90%;
+	}
+
+	header {
+		width: 90%;
+	}
+
+	#imagenes {
+		width: 30%;
+	}
+
+	#video {
+		width: 60%;
+	}
+
+	#contexto {
+		width: 60%;
+	}
+
+	#columnas {
+		width: 60%;
+	}
+
+	footer {
+		width: 90%;
+	}
+	}
+
+/* X-Large devices (tablets, 1200px and up) */
+	@media (min-width: 1200px) and (max-width: 1399px) {
+	body {
+		background-color: #ffffff;
+		background-image: url("pattern.jpg");
+		backface-visibility: cover;
+	}
+
+	#contenedor {
+		width: 90%;
+	}
+
+	header {
+		width: 90%;
+	}
+
+	#imagenes {
+		width: 30%;
+	}
+
+	#video {
+		width: 60%;
+	}
+
+	#contexto {
+		width: 60%;
+	}
+
+	#columnas {
+		width: 60%;
+	}
+
+	footer {
+		width: 90%;
+	}
+	}
